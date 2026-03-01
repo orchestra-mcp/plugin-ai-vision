@@ -1,0 +1,23 @@
+{
+    "name": "orchestra-mcp/plugin-ai-vision",
+    "description": "ai-vision tools plugin for Orchestra MCP.",
+    "type": "tools",
+    "license": "MIT",
+    "homepage": "https://orchestra-mcp.dev",
+    "support": {
+        "issues": "https://github.com/orchestra-mcp/plugin-ai-vision/issues",
+        "source": "https://github.com/orchestra-mcp/plugin-ai-vision"
+    },
+    "require": {
+        "orchestra-mcp/gen-go": "^0.1.0",
+        "orchestra-mcp/sdk-go": "^0.1.0"
+    },
+    "bin": "ai-vision",
+    "extra": {
+        "plugin-id": "tools.ai-vision",
+        "provides": ["tools"],
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
